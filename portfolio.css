@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+
+.main
+{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width:86%;
+    display: flex;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.navbar .logo{
+    width: 55px;
+    cursor: pointer;
+    border-radius: 95px;
+    right: -20%;          
+}
+
+ul{
+    margin-top: -4%;
+    background-color: #f44336;
+    
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px ;
+    background-color: #f44336;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none ;
+    color: darkslategray;
+    margin-top: -3%;
+    transition: .4s ease;
+}
+ 
+ul li a:hover{
+    color: rgb(230,104,59);
+}
+
+.info{
+    
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: rgb(36,32,30);
+}
+.info h3{
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span{
+    color : rgb(230,104,59)
+}
+
+.info a{
+    text-decoration: none;
+    color: white;
+    background: black;
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.info a:hover{
+    background: rgb(37, 163, 202);
+}
+
+.image{
+    width: 30%;
+    height: 80%;
+    display: flex;
+    position: absolute;
+    right:-10%;
+    bottom: 0;
+}
+
+.image img{
+    /*--position: absolute;*/
+    height: 500px;
+    width: 300px;
+    left: 60%;
+    right: 200px;
+    transform: translate(-55%);
+    bottom: 0;
+    border-radius: 33px;
+    
+}
+
+.icons a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.icons ion-icon{
+    margin-left: 7%;
+    color: black;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+}
+
+.icons ion-icon:hover{
+    color: rgb(59,174,209);
+}
+* {
+    box-sizing: border-box
+}
+
+/* Container for skill bars */
+.container {
+    width: 100%;
+    /* Grey background */
+
+}
+
+.skills {
+    text-align: right;
+    /* Right-align text */
+    padding-top: 10px;
+    /* Add top padding */
+    padding-bottom: 10px;
+    /* Add bottom padding */
+    color: white;
+    /* White text color */
+}
+
+.verilog {
+    width: 90%;
+    background-color: #04AA6D;
+}
+
+/* Green */
+.c {
+    width: 80%;
+    background-color: #2196F3;
+}
+
+/* Blue */
+.python {
+    width: 65%;
+    background-color: #f44336;
+}
+
+/* Red */
+.java {
+    width: 50%;
+    background-color: #ff0000;
+}
+
+/* Dark Grey */
+.html {
+    width: 70%;
+    background-color: #808080;
+}
+
+
+.about p{
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 25px;
+
+}
+
+.skills p {
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    color: black;
+}
+
+.about h1{
+    text-align: center;
+    color: red;
+}
+
+.skills h1 {
+    text-align: center;
+    color: red;
+}
+
+
+
+/* Style inputs */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+   
+}
+
+input[type=submit] {
+    
+    color: black;
+    padding: 12px 20px;
+    border: #808080;
+    cursor: pointer;
+    
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+}
+.container h2{
+    color: red;
+    font-size: 25px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+    .column,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
